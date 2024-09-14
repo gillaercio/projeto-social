@@ -22,7 +22,7 @@ main {
   height: 100vh;
 }
 
-section#fone {  
+#fone {  
   width: 311px;
   height: 627px;
   background: url(../imagens/frame-iphone.png) no-repeat;
@@ -38,5 +38,25 @@ section#fone {
     height: 471px;
     top: 80px;
     left: 21px;
+  }
+}
+
+#social-links {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+  }
+
+  img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transform: translate(-3px, -3px);
+    transition: transform .3s, border .5s;
   }
 }
