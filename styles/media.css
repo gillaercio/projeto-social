@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 449px) {
+  #fone {
+    /* position: absolute; */
+    top: 70vh;
+  }
+
+  #social-links {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    position: absolute;
+    left: 40%;
+  
+    img {
+      width: 40px;
+      margin: 5px;
+    }
+  }
+}

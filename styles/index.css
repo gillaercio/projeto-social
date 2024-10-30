@@ -42,7 +42,6 @@ main {
 }
 
 #social-links {
-  /* text-align: right; */
   display: flex;
   flex-direction: column;
   float: right;
